@@ -1,0 +1,131 @@
+body{
+    background-color: aliceblue;
+ }
+ .title{
+     background-color: cadetblue;
+ }
+ nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: rgb(56, 123, 168);
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: calc(100vh);
+    margin-top: 10px;
+    padding: 16px;
+    overflow: hidden;
+  }
+  .text{
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+  }
+  .btn{
+      margin: auto;
+      width: 10%;
+      padding: 10px;
+  }
+  .general{
+      display: flex;
+      flex-direction: row;
+  }
+  .general_pic{
+      width: 50%;
+      height: 400px;
+      flex: 1 1 0;
+      padding: auto;
+
+  }
+  .general_text{
+      width: 50%;
+      margin-left: 40px;
+      flex: 2;
+      margin-right: 40px;
+      overflow: hidden;
+  }
+  #name{
+        font-size: 40px;
+        margin-top: 20px;
+  }
+  #button_pic{
+    background-color: rgb(56, 123, 168); 
+    border: none;
+    color: white;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 16px;
+    border-radius: 5px;
+  }
+
+  #intro{
+    height: 100%;
+    top: 100%;
+    background-color: rgb(235, 238, 240);
+    border: solid;
+    border-width: 0ch;
+    margin-top: 16px;
+    font-size: 16px;
+    color: rgb(12, 2, 2);
+    padding-left: 2px;
+  }
+  #intro_text{
+      margin: 30px;
+  }
+  .detail{
+      height: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      margin-top: 30px;
+  }
+  .detail > * { 
+      width: 25%;
+  }
+  .direction{
+      height: fit-content;
+  }
+  img{
+      padding-left: 5px;
+      padding-right: 5px;
+      border-radius: 20px;
+      max-width: 80%;
+      max-height: 100%;
+  }
+  .direction_text{
+      width: 80%;
+      text-align: center;
+      font-size: 15px;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
