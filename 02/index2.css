@@ -1,0 +1,41 @@
+header{
+    width: 439px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    background-color:#e9faff;
+   }
+   td{
+    width: 58px;
+    height: 40px;
+    border-radius: 10%;
+    filter: opacity(0.7);
+   }
+   table tr td:first-child{width:30px;}
+   table{
+    width: 439px;
+    height: 480px;
+    text-align: center;
+    font-size: 10px;
+    background-color:#e9faff;
+    background-size: contain;
+   }
+   #message{
+    background-color: #fdfdfc;
+    font-family: 宋体;
+	font-size: 14px;
+	font-weight: bold;
+	place-content: center;
+    text-align: left;
+	width: 300px;
+	height: auto;
+	position: absolute;
+	display: none;
+}
+   footer{
+       width: 439px;
+       height: 20px;
+       background-color: #e9faff;
+       background-size: contain;
+   }
+   

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="author" content="xyh">
+  <meta name="description" content="课表信息">
+  <title>课程表</title>
+  <link rel="stylesheet" href="index2.css">
+  <script type="text/javascript"  src="index2.js" defer></script>
+ </head>
+ <body>
+     <header><h1>课程表<h1</header>
+  <table align="center">
+   <tr>
+    <td></td>
+    <td>周一</td>
+    <td>周二</td>
+    <td>周三</td>
+    <td>周四</td>
+    <td>周五</td>
+    <td>周六</td>
+    <td>周日</td>
+   <tr>
+    <td>1</td>
+    <td rowspan="2"></td>
+    <td rowspan="2" bgcolor="deeppink" onmouseover="mOver(this);" onmouseout="mOut();">编译原理</td>
+    <td rowspan="2"></td>
+    <td rowspan="2" bgcolor="aqua" onmouseover="mOver(this);" onmouseout="mOut();">信息检索技术</td>
+    <td rowspan="2" bgcolor="green" onmouseover="mOver(this);" onmouseout="mOut();">操作系统原理</td>
+    <td rowspan="11"></td>
+    <td rowspan="11"></td>
+   </tr>
+   <tr><td>2</td></tr>
+   <tr>
+    <td>3</td>
+    <td rowspan="2" bgcolor="blueviolet" onmouseover="mOver(this);" onmouseout="mOut();">微机原理与接口技术</td>
+    <td rowspan="2"></td>
+    <td rowspan="2" bgcolor="blue" onmouseover="mOver(this);" onmouseout="mOut();">操作系统原理</td>
+    <td rowspan="2" bgcolor="aqua" onmouseover="mOver(this);" onmouseout="mOut();">习近平新时代中国特色社会主义思想概论</td>
+   </tr>
+   <tr><td>4</td></tr>
+   <tr>
+    <td>5</td>
+    <td rowspan="2"></td>
+    <td rowspan="2"></td>
+    <td rowspan="2"></td>
+    <td rowspan="2" bgcolor="aqua" onmouseover="mOver(this);" onmouseout="mOut();">Web程序设计</td>
+   </tr>
+   <tr><td>6</td></tr>
+   <tr>
+    <td>7</td>
+    <td rowspan="2" bgcolor="blueviolet" onmouseover="mOver(this);" onmouseout="mOut();">民俗丛谈</td>
+    <td rowspan="2" bgcolor="deeppink" onmouseover="mOver(this);" onmouseout="mOut();">信息检索技术</td>
+    <td rowspan="2" bgcolor="blue" onmouseover="mOver(this);" onmouseout="mOut();">微机原理与接口技术</td>
+    <td rowspan="2" bgcolor="aqua" onmouseover="mOver(this);" onmouseout="mOut();">编译原理</td>
+   </tr>
+   <tr><td>8</td></tr>
+   <tr>
+    <td>9</td>
+    <td rowspan="2"></td>
+    <td rowspan="2"></td>
+    <td rowspan="2" bgcolor="blue" onmouseover="mOver(this);" onmouseout="mOut();">文学经典赏读</td>
+   </tr>
+   <tr><td>10</td></tr>
+   <tr><td>11</td></tr>
+   <tr><td>12</td></tr>
+  </table>
+  <div id="message">
+    <ul>
+        <li><p>时间：<i id="time"></i></p></li>
+        <li><p>具体上课时间：<i id="atime"></i></p></li>
+        <li><p>上课地点：<i id="address"></i></p></li>
+        <li><p>教师：<i id="teacher"></i></p></li>
+    </ul>
+</div>  
+  <footer></footer>
+ </body>
+</html>
